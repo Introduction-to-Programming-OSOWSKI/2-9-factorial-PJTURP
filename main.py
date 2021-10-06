@@ -1,5 +1,13 @@
-#WRITE YOUR CODE IN THIS FILE
+#def factorial
 
 def factorial(x):
-    for i in range(x):
-        factorial == x * i  
+
+    total = 1
+
+    for i in range(1, 1 + x):
+        total = total * i
+        
+        
+    return total
+
+print(factorial(10))
